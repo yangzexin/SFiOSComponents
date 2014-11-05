@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E2A505A1828CDA1009D3491 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E2A50591828CDA1009D3491 /* Foundation.framework */; };
+		3E2A505F1828CDA1009D3491 /* SFMapApp.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3E2A505E1828CDA1009D3491 /* SFMapApp.h */; };
+		3E2A50611828CDA1009D3491 /* SFMapApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2A50601828CDA1009D3491 /* SFMapApp.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3E482CB31828CDF400B91DC3 /* SFAutoNaviMapApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E482CAC1828CDF400B91DC3 /* SFAutoNaviMapApp.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3E482CB41828CDF400B91DC3 /* SFBaiduMapApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E482CAE1828CDF400B91DC3 /* SFBaiduMapApp.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3E482CB51828CDF400B91DC3 /* SFGoogleMapApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E482CB01828CDF400B91DC3 /* SFGoogleMapApp.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3E482CB61828CDF400B91DC3 /* SFSystemMapApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E482CB21828CDF400B91DC3 /* SFSystemMapApp.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3E482CBB1828CDFC00B91DC3 /* SFMapDirectionRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E482CB81828CDFC00B91DC3 /* SFMapDirectionRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3E482CBC1828CDFC00B91DC3 /* SFMapAppCollector.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E482CBA1828CDFC00B91DC3 /* SFMapAppCollector.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3E5D08CD183CA20E000973CE /* SFMapAppFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E5D08CC183CA20E000973CE /* SFMapAppFactory.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3E2A50541828CDA1009D3491 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				3E2A505F1828CDA1009D3491 /* SFMapApp.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3E2A50561828CDA1009D3491 /* libSFMapApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSFMapApp.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E2A50591828CDA1009D3491 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3E2A505D1828CDA1009D3491 /* SFMapApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SFMapApp-Prefix.pch"; sourceTree = "<group>"; };
+		3E2A505E1828CDA1009D3491 /* SFMapApp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFMapApp.h; sourceTree = "<group>"; };
+		3E2A50601828CDA1009D3491 /* SFMapApp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFMapApp.m; sourceTree = "<group>"; };
+		3E482CAB1828CDF400B91DC3 /* SFAutoNaviMapApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFAutoNaviMapApp.h; sourceTree = "<group>"; };
+		3E482CAC1828CDF400B91DC3 /* SFAutoNaviMapApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFAutoNaviMapApp.m; sourceTree = "<group>"; };
+		3E482CAD1828CDF400B91DC3 /* SFBaiduMapApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFBaiduMapApp.h; sourceTree = "<group>"; };
+		3E482CAE1828CDF400B91DC3 /* SFBaiduMapApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFBaiduMapApp.m; sourceTree = "<group>"; };
+		3E482CAF1828CDF400B91DC3 /* SFGoogleMapApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFGoogleMapApp.h; sourceTree = "<group>"; };
+		3E482CB01828CDF400B91DC3 /* SFGoogleMapApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFGoogleMapApp.m; sourceTree = "<group>"; };
+		3E482CB11828CDF400B91DC3 /* SFSystemMapApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFSystemMapApp.h; sourceTree = "<group>"; };
+		3E482CB21828CDF400B91DC3 /* SFSystemMapApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFSystemMapApp.m; sourceTree = "<group>"; };
+		3E482CB71828CDFC00B91DC3 /* SFMapDirectionRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFMapDirectionRequest.h; sourceTree = "<group>"; };
+		3E482CB81828CDFC00B91DC3 /* SFMapDirectionRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFMapDirectionRequest.m; sourceTree = "<group>"; };
+		3E482CB91828CDFC00B91DC3 /* SFMapAppCollector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFMapAppCollector.h; sourceTree = "<group>"; };
+		3E482CBA1828CDFC00B91DC3 /* SFMapAppCollector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFMapAppCollector.m; sourceTree = "<group>"; };
+		3E5D08CB183CA20E000973CE /* SFMapAppFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFMapAppFactory.h; sourceTree = "<group>"; };
+		3E5D08CC183CA20E000973CE /* SFMapAppFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFMapAppFactory.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E2A50531828CDA1009D3491 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E2A505A1828CDA1009D3491 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E2A504D1828CDA1009D3491 = {
+			isa = PBXGroup;
+			children = (
+				3E2A505B1828CDA1009D3491 /* SFMapApp */,
+				3E2A50581828CDA1009D3491 /* Frameworks */,
+				3E2A50571828CDA1009D3491 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3E2A50571828CDA1009D3491 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E2A50561828CDA1009D3491 /* libSFMapApp.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E2A50581828CDA1009D3491 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E2A50591828CDA1009D3491 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3E2A505B1828CDA1009D3491 /* SFMapApp */ = {
+			isa = PBXGroup;
+			children = (
+				3E482CAA1828CDE900B91DC3 /* MapApp */,
+				3E2A505E1828CDA1009D3491 /* SFMapApp.h */,
+				3E2A50601828CDA1009D3491 /* SFMapApp.m */,
+				3E482CB71828CDFC00B91DC3 /* SFMapDirectionRequest.h */,
+				3E482CB81828CDFC00B91DC3 /* SFMapDirectionRequest.m */,
+				3E5D08CB183CA20E000973CE /* SFMapAppFactory.h */,
+				3E5D08CC183CA20E000973CE /* SFMapAppFactory.m */,
+				3E482CB91828CDFC00B91DC3 /* SFMapAppCollector.h */,
+				3E482CBA1828CDFC00B91DC3 /* SFMapAppCollector.m */,
+				3E2A505C1828CDA1009D3491 /* Supporting Files */,
+			);
+			path = SFMapApp;
+			sourceTree = "<group>";
+		};
+		3E2A505C1828CDA1009D3491 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E2A505D1828CDA1009D3491 /* SFMapApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3E482CAA1828CDE900B91DC3 /* MapApp */ = {
+			isa = PBXGroup;
+			children = (
+				3E482CAB1828CDF400B91DC3 /* SFAutoNaviMapApp.h */,
+				3E482CAC1828CDF400B91DC3 /* SFAutoNaviMapApp.m */,
+				3E482CAD1828CDF400B91DC3 /* SFBaiduMapApp.h */,
+				3E482CAE1828CDF400B91DC3 /* SFBaiduMapApp.m */,
+				3E482CAF1828CDF400B91DC3 /* SFGoogleMapApp.h */,
+				3E482CB01828CDF400B91DC3 /* SFGoogleMapApp.m */,
+				3E482CB11828CDF400B91DC3 /* SFSystemMapApp.h */,
+				3E482CB21828CDF400B91DC3 /* SFSystemMapApp.m */,
+			);
+			name = MapApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E2A50551828CDA1009D3491 /* SFMapApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E2A50641828CDA1009D3491 /* Build configuration list for PBXNativeTarget "SFMapApp" */;
+			buildPhases = (
+				3E2A50521828CDA1009D3491 /* Sources */,
+				3E2A50531828CDA1009D3491 /* Frameworks */,
+				3E2A50541828CDA1009D3491 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SFMapApp;
+			productName = SFMapApp;
+			productReference = 3E2A50561828CDA1009D3491 /* libSFMapApp.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E2A504E1828CDA1009D3491 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = yangzexin;
+			};
+			buildConfigurationList = 3E2A50511828CDA1009D3491 /* Build configuration list for PBXProject "SFMapApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3E2A504D1828CDA1009D3491;
+			productRefGroup = 3E2A50571828CDA1009D3491 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E2A50551828CDA1009D3491 /* SFMapApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E2A50521828CDA1009D3491 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E482CB51828CDF400B91DC3 /* SFGoogleMapApp.m in Sources */,
+				3E482CB31828CDF400B91DC3 /* SFAutoNaviMapApp.m in Sources */,
+				3E2A50611828CDA1009D3491 /* SFMapApp.m in Sources */,
+				3E482CB41828CDF400B91DC3 /* SFBaiduMapApp.m in Sources */,
+				3E5D08CD183CA20E000973CE /* SFMapAppFactory.m in Sources */,
+				3E482CBC1828CDFC00B91DC3 /* SFMapAppCollector.m in Sources */,
+				3E482CB61828CDF400B91DC3 /* SFSystemMapApp.m in Sources */,
+				3E482CBB1828CDFC00B91DC3 /* SFMapDirectionRequest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3E2A50621828CDA1009D3491 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3E2A50631828CDA1009D3491 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E2A50651828CDA1009D3491 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DSTROOT = /tmp/SFMapApp.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SFMapApp/SFMapApp-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3E2A50661828CDA1009D3491 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DSTROOT = /tmp/SFMapApp.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SFMapApp/SFMapApp-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E2A50511828CDA1009D3491 /* Build configuration list for PBXProject "SFMapApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E2A50621828CDA1009D3491 /* Debug */,
+				3E2A50631828CDA1009D3491 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E2A50641828CDA1009D3491 /* Build configuration list for PBXNativeTarget "SFMapApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E2A50651828CDA1009D3491 /* Debug */,
+				3E2A50661828CDA1009D3491 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E2A504E1828CDA1009D3491 /* Project object */;
+}

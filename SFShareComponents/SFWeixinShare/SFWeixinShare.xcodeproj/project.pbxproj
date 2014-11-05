@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E24A256192F153B00B7F56D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E24A255192F153B00B7F56D /* Foundation.framework */; };
+		3E24A25B192F153B00B7F56D /* SFWeixinShare.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3E24A25A192F153B00B7F56D /* SFWeixinShare.h */; };
+		3E24A25D192F153B00B7F56D /* SFWeixinShare.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E24A25C192F153B00B7F56D /* SFWeixinShare.m */; };
+		3E24A264192F153B00B7F56D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E24A263192F153B00B7F56D /* XCTest.framework */; };
+		3E24A265192F153B00B7F56D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E24A255192F153B00B7F56D /* Foundation.framework */; };
+		3E24A267192F153B00B7F56D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E24A266192F153B00B7F56D /* UIKit.framework */; };
+		3E24A26A192F153B00B7F56D /* libSFWeixinShare.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E24A252192F153B00B7F56D /* libSFWeixinShare.a */; };
+		3E24A270192F153B00B7F56D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3E24A26E192F153B00B7F56D /* InfoPlist.strings */; };
+		3E24A272192F153B00B7F56D /* SFWeixinShareTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E24A271192F153B00B7F56D /* SFWeixinShareTests.m */; };
+		3E24A27D192F158B00B7F56D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E24A27C192F158B00B7F56D /* UIKit.framework */; };
+		3E24A286192F169300B7F56D /* SFSharedWeixinHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E24A285192F169300B7F56D /* SFSharedWeixinHandler.m */; };
+		3E2980B2192F1C0A002EEDF6 /* SFWeixinShareRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2980B1192F1C0A002EEDF6 /* SFWeixinShareRequest.m */; };
+		3E2980B7192F1DD2002EEDF6 /* SFWeixinRequestCatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2980B6192F1DD2002EEDF6 /* SFWeixinRequestCatcher.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3E24A268192F153B00B7F56D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E24A24A192F153B00B7F56D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E24A251192F153B00B7F56D;
+			remoteInfo = SFWeixinShare;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3E24A250192F153B00B7F56D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				3E24A25B192F153B00B7F56D /* SFWeixinShare.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3E24A252192F153B00B7F56D /* libSFWeixinShare.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSFWeixinShare.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E24A255192F153B00B7F56D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3E24A259192F153B00B7F56D /* SFWeixinShare-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SFWeixinShare-Prefix.pch"; sourceTree = "<group>"; };
+		3E24A25A192F153B00B7F56D /* SFWeixinShare.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFWeixinShare.h; sourceTree = "<group>"; };
+		3E24A25C192F153B00B7F56D /* SFWeixinShare.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFWeixinShare.m; sourceTree = "<group>"; };
+		3E24A262192F153B00B7F56D /* SFWeixinShareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SFWeixinShareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E24A263192F153B00B7F56D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3E24A266192F153B00B7F56D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		3E24A26D192F153B00B7F56D /* SFWeixinShareTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SFWeixinShareTests-Info.plist"; sourceTree = "<group>"; };
+		3E24A26F192F153B00B7F56D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3E24A271192F153B00B7F56D /* SFWeixinShareTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFWeixinShareTests.m; sourceTree = "<group>"; };
+		3E24A27C192F158B00B7F56D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3E24A284192F169300B7F56D /* SFSharedWeixinHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFSharedWeixinHandler.h; sourceTree = "<group>"; };
+		3E24A285192F169300B7F56D /* SFSharedWeixinHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFSharedWeixinHandler.m; sourceTree = "<group>"; };
+		3E2980B0192F1C0A002EEDF6 /* SFWeixinShareRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFWeixinShareRequest.h; sourceTree = "<group>"; };
+		3E2980B1192F1C0A002EEDF6 /* SFWeixinShareRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFWeixinShareRequest.m; sourceTree = "<group>"; };
+		3E2980B5192F1DD2002EEDF6 /* SFWeixinRequestCatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFWeixinRequestCatcher.h; sourceTree = "<group>"; };
+		3E2980B6192F1DD2002EEDF6 /* SFWeixinRequestCatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFWeixinRequestCatcher.m; sourceTree = "<group>"; };
+		3E2C10A419AD7CE400C2CBA8 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		3E2C10A519AD7CE400C2CBA8 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		3E2C10A619AD7CE400C2CBA8 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E24A24F192F153B00B7F56D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E24A27D192F158B00B7F56D /* UIKit.framework in Frameworks */,
+				3E24A256192F153B00B7F56D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E24A25F192F153B00B7F56D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E24A26A192F153B00B7F56D /* libSFWeixinShare.a in Frameworks */,
+				3E24A264192F153B00B7F56D /* XCTest.framework in Frameworks */,
+				3E24A267192F153B00B7F56D /* UIKit.framework in Frameworks */,
+				3E24A265192F153B00B7F56D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E24A249192F153B00B7F56D = {
+			isa = PBXGroup;
+			children = (
+				3E24A257192F153B00B7F56D /* SFWeixinShare */,
+				3E24A26B192F153B00B7F56D /* SFWeixinShareTests */,
+				3E24A27E192F15E600B7F56D /* Vendor */,
+				3E24A254192F153B00B7F56D /* Frameworks */,
+				3E24A253192F153B00B7F56D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3E24A253192F153B00B7F56D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E24A252192F153B00B7F56D /* libSFWeixinShare.a */,
+				3E24A262192F153B00B7F56D /* SFWeixinShareTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E24A254192F153B00B7F56D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E24A27C192F158B00B7F56D /* UIKit.framework */,
+				3E24A255192F153B00B7F56D /* Foundation.framework */,
+				3E24A263192F153B00B7F56D /* XCTest.framework */,
+				3E24A266192F153B00B7F56D /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3E24A257192F153B00B7F56D /* SFWeixinShare */ = {
+			isa = PBXGroup;
+			children = (
+				3E24A284192F169300B7F56D /* SFSharedWeixinHandler.h */,
+				3E24A285192F169300B7F56D /* SFSharedWeixinHandler.m */,
+				3E2980B5192F1DD2002EEDF6 /* SFWeixinRequestCatcher.h */,
+				3E2980B6192F1DD2002EEDF6 /* SFWeixinRequestCatcher.m */,
+				3E24A25A192F153B00B7F56D /* SFWeixinShare.h */,
+				3E24A25C192F153B00B7F56D /* SFWeixinShare.m */,
+				3E2980B0192F1C0A002EEDF6 /* SFWeixinShareRequest.h */,
+				3E2980B1192F1C0A002EEDF6 /* SFWeixinShareRequest.m */,
+				3E24A258192F153B00B7F56D /* Supporting Files */,
+			);
+			path = SFWeixinShare;
+			sourceTree = "<group>";
+		};
+		3E24A258192F153B00B7F56D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E24A259192F153B00B7F56D /* SFWeixinShare-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3E24A26B192F153B00B7F56D /* SFWeixinShareTests */ = {
+			isa = PBXGroup;
+			children = (
+				3E24A271192F153B00B7F56D /* SFWeixinShareTests.m */,
+				3E24A26C192F153B00B7F56D /* Supporting Files */,
+			);
+			path = SFWeixinShareTests;
+			sourceTree = "<group>";
+		};
+		3E24A26C192F153B00B7F56D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E24A26D192F153B00B7F56D /* SFWeixinShareTests-Info.plist */,
+				3E24A26E192F153B00B7F56D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3E24A27E192F15E600B7F56D /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				3E2C10A319AD7CE400C2CBA8 /* WeChatSDK_1.4.3 */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		3E2C10A319AD7CE400C2CBA8 /* WeChatSDK_1.4.3 */ = {
+			isa = PBXGroup;
+			children = (
+				3E2C10A419AD7CE400C2CBA8 /* libWeChatSDK.a */,
+				3E2C10A519AD7CE400C2CBA8 /* WXApi.h */,
+				3E2C10A619AD7CE400C2CBA8 /* WXApiObject.h */,
+			);
+			path = WeChatSDK_1.4.3;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E24A251192F153B00B7F56D /* SFWeixinShare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E24A275192F153B00B7F56D /* Build configuration list for PBXNativeTarget "SFWeixinShare" */;
+			buildPhases = (
+				3E24A24E192F153B00B7F56D /* Sources */,
+				3E24A24F192F153B00B7F56D /* Frameworks */,
+				3E24A250192F153B00B7F56D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SFWeixinShare;
+			productName = SFWeixinShare;
+			productReference = 3E24A252192F153B00B7F56D /* libSFWeixinShare.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		3E24A261192F153B00B7F56D /* SFWeixinShareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E24A278192F153B00B7F56D /* Build configuration list for PBXNativeTarget "SFWeixinShareTests" */;
+			buildPhases = (
+				3E24A25E192F153B00B7F56D /* Sources */,
+				3E24A25F192F153B00B7F56D /* Frameworks */,
+				3E24A260192F153B00B7F56D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E24A269192F153B00B7F56D /* PBXTargetDependency */,
+			);
+			name = SFWeixinShareTests;
+			productName = SFWeixinShareTests;
+			productReference = 3E24A262192F153B00B7F56D /* SFWeixinShareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E24A24A192F153B00B7F56D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = yangzexin;
+			};
+			buildConfigurationList = 3E24A24D192F153B00B7F56D /* Build configuration list for PBXProject "SFWeixinShare" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3E24A249192F153B00B7F56D;
+			productRefGroup = 3E24A253192F153B00B7F56D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E24A251192F153B00B7F56D /* SFWeixinShare */,
+				3E24A261192F153B00B7F56D /* SFWeixinShareTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E24A260192F153B00B7F56D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E24A270192F153B00B7F56D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E24A24E192F153B00B7F56D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E24A286192F169300B7F56D /* SFSharedWeixinHandler.m in Sources */,
+				3E24A25D192F153B00B7F56D /* SFWeixinShare.m in Sources */,
+				3E2980B2192F1C0A002EEDF6 /* SFWeixinShareRequest.m in Sources */,
+				3E2980B7192F1DD2002EEDF6 /* SFWeixinRequestCatcher.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E24A25E192F153B00B7F56D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E24A272192F153B00B7F56D /* SFWeixinShareTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3E24A269192F153B00B7F56D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E24A251192F153B00B7F56D /* SFWeixinShare */;
+			targetProxy = 3E24A268192F153B00B7F56D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3E24A26E192F153B00B7F56D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E24A26F192F153B00B7F56D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3E24A273192F153B00B7F56D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3E24A274192F153B00B7F56D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E24A276192F153B00B7F56D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/SFWeixinShare.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SFWeixinShare/SFWeixinShare-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Vendor/WeChatSDK_1.4.2.1",
+					"$(PROJECT_DIR)/Vendor/WeChatSDK_1.4.3",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "armv7 armv7s";
+			};
+			name = Debug;
+		};
+		3E24A277192F153B00B7F56D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/SFWeixinShare.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SFWeixinShare/SFWeixinShare-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Vendor/WeChatSDK_1.4.2.1",
+					"$(PROJECT_DIR)/Vendor/WeChatSDK_1.4.3",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "armv7 armv7s";
+			};
+			name = Release;
+		};
+		3E24A279192F153B00B7F56D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SFWeixinShare/SFWeixinShare-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SFWeixinShareTests/SFWeixinShareTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3E24A27A192F153B00B7F56D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SFWeixinShare/SFWeixinShare-Prefix.pch";
+				INFOPLIST_FILE = "SFWeixinShareTests/SFWeixinShareTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E24A24D192F153B00B7F56D /* Build configuration list for PBXProject "SFWeixinShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E24A273192F153B00B7F56D /* Debug */,
+				3E24A274192F153B00B7F56D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E24A275192F153B00B7F56D /* Build configuration list for PBXNativeTarget "SFWeixinShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E24A276192F153B00B7F56D /* Debug */,
+				3E24A277192F153B00B7F56D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E24A278192F153B00B7F56D /* Build configuration list for PBXNativeTarget "SFWeixinShareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E24A279192F153B00B7F56D /* Debug */,
+				3E24A27A192F153B00B7F56D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E24A24A192F153B00B7F56D /* Project object */;
+}

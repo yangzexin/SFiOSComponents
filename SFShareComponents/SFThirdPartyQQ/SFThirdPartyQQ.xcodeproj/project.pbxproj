@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E5FBE9819BFEC0D00F10813 /* TencentLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E5FBE9719BFEC0D00F10813 /* TencentLoginView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3EA5B2BF193EBF5F009027DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EA5B2BE193EBF5F009027DC /* Foundation.framework */; };
+		3EA5B2C4193EBF5F009027DC /* SFThirdPartyQQ.h in Copy Files */ = {isa = PBXBuildFile; fileRef = 3EA5B2C3193EBF5F009027DC /* SFThirdPartyQQ.h */; };
+		3EA5B2CD193EBF5F009027DC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EA5B2CC193EBF5F009027DC /* XCTest.framework */; };
+		3EA5B2CE193EBF5F009027DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EA5B2BE193EBF5F009027DC /* Foundation.framework */; };
+		3EA5B2D0193EBF5F009027DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EA5B2CF193EBF5F009027DC /* UIKit.framework */; };
+		3EA5B2D3193EBF5F009027DC /* libSFThirdPartyQQ.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EA5B2BB193EBF5F009027DC /* libSFThirdPartyQQ.a */; };
+		3EA5B2D9193EBF5F009027DC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3EA5B2D7193EBF5F009027DC /* InfoPlist.strings */; };
+		3EA5B2DB193EBF5F009027DC /* SFThirdPartyQQTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA5B2DA193EBF5F009027DC /* SFThirdPartyQQTests.m */; };
+		3EA5B2E6193EBF7E009027DC /* SFQQAuthorization.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA5B2E5193EBF7E009027DC /* SFQQAuthorization.m */; };
+		3EA5B2EE193EC0E7009027DC /* SFQzoneShare.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA5B2ED193EC0E7009027DC /* SFQzoneShare.m */; };
+		3EA5B2F2193EC3F0009027DC /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EA5B2F0193EC3F0009027DC /* TencentOpenAPI.framework */; };
+		3EA5B2F7193EC8EB009027DC /* SFQzoneShareRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA5B2F6193EC8EB009027DC /* SFQzoneShareRequest.m */; };
+		3EA5B2FA193ECE22009027DC /* SFQQShareRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA5B2F9193ECE22009027DC /* SFQQShareRequest.m */; };
+		3EA5B354193EE714009027DC /* SFQQWeiboShare.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA5B353193EE714009027DC /* SFQQWeiboShare.m */; };
+		3EA5B357193EE7A3009027DC /* SFQQWeiboShareRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA5B356193EE7A3009027DC /* SFQQWeiboShareRequest.m */; };
+		3EA5B359193EFDB5009027DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EA5B358193EFDB5009027DC /* UIKit.framework */; };
+		3EEFE5A3194943650006BE55 /* SFQQUserProfileRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EEFE5A2194943650006BE55 /* SFQQUserProfileRequest.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3EA5B2D1193EBF5F009027DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3EA5B2B3193EBF5F009027DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EA5B2BA193EBF5F009027DC;
+			remoteInfo = SFThirdPartyQQ;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3EA5B2B9193EBF5F009027DC /* Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				3EA5B2C4193EBF5F009027DC /* SFThirdPartyQQ.h in Copy Files */,
+			);
+			name = "Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3E5FBE9619BFEC0D00F10813 /* TencentLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TencentLoginView.h; sourceTree = "<group>"; };
+		3E5FBE9719BFEC0D00F10813 /* TencentLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TencentLoginView.m; sourceTree = "<group>"; };
+		3EA5B2BB193EBF5F009027DC /* libSFThirdPartyQQ.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSFThirdPartyQQ.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EA5B2BE193EBF5F009027DC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3EA5B2C2193EBF5F009027DC /* SFThirdPartyQQ-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SFThirdPartyQQ-Prefix.pch"; sourceTree = "<group>"; };
+		3EA5B2C3193EBF5F009027DC /* SFThirdPartyQQ.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFThirdPartyQQ.h; sourceTree = "<group>"; };
+		3EA5B2CB193EBF5F009027DC /* SFThirdPartyQQTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SFThirdPartyQQTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EA5B2CC193EBF5F009027DC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3EA5B2CF193EBF5F009027DC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		3EA5B2D6193EBF5F009027DC /* SFThirdPartyQQTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SFThirdPartyQQTests-Info.plist"; sourceTree = "<group>"; };
+		3EA5B2D8193EBF5F009027DC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3EA5B2DA193EBF5F009027DC /* SFThirdPartyQQTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFThirdPartyQQTests.m; sourceTree = "<group>"; };
+		3EA5B2E4193EBF7E009027DC /* SFQQAuthorization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFQQAuthorization.h; sourceTree = "<group>"; };
+		3EA5B2E5193EBF7E009027DC /* SFQQAuthorization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFQQAuthorization.m; sourceTree = "<group>"; };
+		3EA5B2EC193EC0E7009027DC /* SFQzoneShare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFQzoneShare.h; sourceTree = "<group>"; };
+		3EA5B2ED193EC0E7009027DC /* SFQzoneShare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFQzoneShare.m; sourceTree = "<group>"; };
+		3EA5B2F0193EC3F0009027DC /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
+		3EA5B2F1193EC3F0009027DC /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TencentOpenApi_IOS_Bundle.bundle; sourceTree = "<group>"; };
+		3EA5B2F5193EC8EB009027DC /* SFQzoneShareRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFQzoneShareRequest.h; sourceTree = "<group>"; };
+		3EA5B2F6193EC8EB009027DC /* SFQzoneShareRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFQzoneShareRequest.m; sourceTree = "<group>"; };
+		3EA5B2F8193ECE22009027DC /* SFQQShareRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFQQShareRequest.h; sourceTree = "<group>"; };
+		3EA5B2F9193ECE22009027DC /* SFQQShareRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFQQShareRequest.m; sourceTree = "<group>"; };
+		3EA5B352193EE714009027DC /* SFQQWeiboShare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFQQWeiboShare.h; sourceTree = "<group>"; };
+		3EA5B353193EE714009027DC /* SFQQWeiboShare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFQQWeiboShare.m; sourceTree = "<group>"; };
+		3EA5B355193EE7A3009027DC /* SFQQWeiboShareRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFQQWeiboShareRequest.h; sourceTree = "<group>"; };
+		3EA5B356193EE7A3009027DC /* SFQQWeiboShareRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFQQWeiboShareRequest.m; sourceTree = "<group>"; };
+		3EA5B358193EFDB5009027DC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3EEFE5A1194943650006BE55 /* SFQQUserProfileRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFQQUserProfileRequest.h; sourceTree = "<group>"; };
+		3EEFE5A2194943650006BE55 /* SFQQUserProfileRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFQQUserProfileRequest.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3EA5B2B8193EBF5F009027DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EA5B359193EFDB5009027DC /* UIKit.framework in Frameworks */,
+				3EA5B2BF193EBF5F009027DC /* Foundation.framework in Frameworks */,
+				3EA5B2F2193EC3F0009027DC /* TencentOpenAPI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EA5B2C8193EBF5F009027DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EA5B2CD193EBF5F009027DC /* XCTest.framework in Frameworks */,
+				3EA5B2D0193EBF5F009027DC /* UIKit.framework in Frameworks */,
+				3EA5B2CE193EBF5F009027DC /* Foundation.framework in Frameworks */,
+				3EA5B2D3193EBF5F009027DC /* libSFThirdPartyQQ.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3EA5B2B2193EBF5F009027DC = {
+			isa = PBXGroup;
+			children = (
+				3EA5B2C0193EBF5F009027DC /* SFThirdPartyQQ */,
+				3EA5B2E7193EBF86009027DC /* Vendor */,
+				3EA5B2D4193EBF5F009027DC /* SFThirdPartyQQTests */,
+				3EA5B2BD193EBF5F009027DC /* Frameworks */,
+				3EA5B2BC193EBF5F009027DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3EA5B2BC193EBF5F009027DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3EA5B2BB193EBF5F009027DC /* libSFThirdPartyQQ.a */,
+				3EA5B2CB193EBF5F009027DC /* SFThirdPartyQQTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3EA5B2BD193EBF5F009027DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3EA5B358193EFDB5009027DC /* UIKit.framework */,
+				3EA5B2BE193EBF5F009027DC /* Foundation.framework */,
+				3EA5B2CC193EBF5F009027DC /* XCTest.framework */,
+				3EA5B2CF193EBF5F009027DC /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3EA5B2C0193EBF5F009027DC /* SFThirdPartyQQ */ = {
+			isa = PBXGroup;
+			children = (
+				3E5FBE9619BFEC0D00F10813 /* TencentLoginView.h */,
+				3E5FBE9719BFEC0D00F10813 /* TencentLoginView.m */,
+				3EA5B2E4193EBF7E009027DC /* SFQQAuthorization.h */,
+				3EA5B2E5193EBF7E009027DC /* SFQQAuthorization.m */,
+				3EA5B2EC193EC0E7009027DC /* SFQzoneShare.h */,
+				3EA5B2ED193EC0E7009027DC /* SFQzoneShare.m */,
+				3EA5B2F5193EC8EB009027DC /* SFQzoneShareRequest.h */,
+				3EA5B2F6193EC8EB009027DC /* SFQzoneShareRequest.m */,
+				3EA5B2F8193ECE22009027DC /* SFQQShareRequest.h */,
+				3EA5B2F9193ECE22009027DC /* SFQQShareRequest.m */,
+				3EA5B352193EE714009027DC /* SFQQWeiboShare.h */,
+				3EA5B353193EE714009027DC /* SFQQWeiboShare.m */,
+				3EA5B355193EE7A3009027DC /* SFQQWeiboShareRequest.h */,
+				3EA5B356193EE7A3009027DC /* SFQQWeiboShareRequest.m */,
+				3EEFE5A1194943650006BE55 /* SFQQUserProfileRequest.h */,
+				3EEFE5A2194943650006BE55 /* SFQQUserProfileRequest.m */,
+				3EA5B2C3193EBF5F009027DC /* SFThirdPartyQQ.h */,
+				3EA5B2C1193EBF5F009027DC /* Supporting Files */,
+			);
+			path = SFThirdPartyQQ;
+			sourceTree = "<group>";
+		};
+		3EA5B2C1193EBF5F009027DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3EA5B2C2193EBF5F009027DC /* SFThirdPartyQQ-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3EA5B2D4193EBF5F009027DC /* SFThirdPartyQQTests */ = {
+			isa = PBXGroup;
+			children = (
+				3EA5B2DA193EBF5F009027DC /* SFThirdPartyQQTests.m */,
+				3EA5B2D5193EBF5F009027DC /* Supporting Files */,
+			);
+			path = SFThirdPartyQQTests;
+			sourceTree = "<group>";
+		};
+		3EA5B2D5193EBF5F009027DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3EA5B2D6193EBF5F009027DC /* SFThirdPartyQQTests-Info.plist */,
+				3EA5B2D7193EBF5F009027DC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3EA5B2E7193EBF86009027DC /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				3EA5B2EF193EC3F0009027DC /* Connect_IOS_SDK_V2.2 */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		3EA5B2EF193EC3F0009027DC /* Connect_IOS_SDK_V2.2 */ = {
+			isa = PBXGroup;
+			children = (
+				3EA5B2F0193EC3F0009027DC /* TencentOpenAPI.framework */,
+				3EA5B2F1193EC3F0009027DC /* TencentOpenApi_IOS_Bundle.bundle */,
+			);
+			path = Connect_IOS_SDK_V2.2;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3EA5B2BA193EBF5F009027DC /* SFThirdPartyQQ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EA5B2DE193EBF5F009027DC /* Build configuration list for PBXNativeTarget "SFThirdPartyQQ" */;
+			buildPhases = (
+				3EA5B2B7193EBF5F009027DC /* Sources */,
+				3EA5B2B8193EBF5F009027DC /* Frameworks */,
+				3EA5B2B9193EBF5F009027DC /* Copy Files */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SFThirdPartyQQ;
+			productName = SFThirdPartyQQ;
+			productReference = 3EA5B2BB193EBF5F009027DC /* libSFThirdPartyQQ.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		3EA5B2CA193EBF5F009027DC /* SFThirdPartyQQTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EA5B2E1193EBF5F009027DC /* Build configuration list for PBXNativeTarget "SFThirdPartyQQTests" */;
+			buildPhases = (
+				3EA5B2C7193EBF5F009027DC /* Sources */,
+				3EA5B2C8193EBF5F009027DC /* Frameworks */,
+				3EA5B2C9193EBF5F009027DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3EA5B2D2193EBF5F009027DC /* PBXTargetDependency */,
+			);
+			name = SFThirdPartyQQTests;
+			productName = SFThirdPartyQQTests;
+			productReference = 3EA5B2CB193EBF5F009027DC /* SFThirdPartyQQTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3EA5B2B3193EBF5F009027DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = yangzexin;
+			};
+			buildConfigurationList = 3EA5B2B6193EBF5F009027DC /* Build configuration list for PBXProject "SFThirdPartyQQ" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3EA5B2B2193EBF5F009027DC;
+			productRefGroup = 3EA5B2BC193EBF5F009027DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3EA5B2BA193EBF5F009027DC /* SFThirdPartyQQ */,
+				3EA5B2CA193EBF5F009027DC /* SFThirdPartyQQTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3EA5B2C9193EBF5F009027DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EA5B2D9193EBF5F009027DC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3EA5B2B7193EBF5F009027DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EA5B354193EE714009027DC /* SFQQWeiboShare.m in Sources */,
+				3EA5B357193EE7A3009027DC /* SFQQWeiboShareRequest.m in Sources */,
+				3E5FBE9819BFEC0D00F10813 /* TencentLoginView.m in Sources */,
+				3EEFE5A3194943650006BE55 /* SFQQUserProfileRequest.m in Sources */,
+				3EA5B2FA193ECE22009027DC /* SFQQShareRequest.m in Sources */,
+				3EA5B2EE193EC0E7009027DC /* SFQzoneShare.m in Sources */,
+				3EA5B2E6193EBF7E009027DC /* SFQQAuthorization.m in Sources */,
+				3EA5B2F7193EC8EB009027DC /* SFQzoneShareRequest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EA5B2C7193EBF5F009027DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EA5B2DB193EBF5F009027DC /* SFThirdPartyQQTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3EA5B2D2193EBF5F009027DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3EA5B2BA193EBF5F009027DC /* SFThirdPartyQQ */;
+			targetProxy = 3EA5B2D1193EBF5F009027DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3EA5B2D7193EBF5F009027DC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EA5B2D8193EBF5F009027DC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3EA5B2DC193EBF5F009027DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3EA5B2DD193EBF5F009027DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3EA5B2DF193EBF5F009027DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/SFThirdPartyQQ.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Vendor/Connect_IOS_SDK_V2.2",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SFThirdPartyQQ/SFThirdPartyQQ-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "armv7 armv7s";
+			};
+			name = Debug;
+		};
+		3EA5B2E0193EBF5F009027DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/SFThirdPartyQQ.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Vendor/Connect_IOS_SDK_V2.2",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SFThirdPartyQQ/SFThirdPartyQQ-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "armv7 armv7s";
+			};
+			name = Release;
+		};
+		3EA5B2E2193EBF5F009027DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SFThirdPartyQQ/SFThirdPartyQQ-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SFThirdPartyQQTests/SFThirdPartyQQTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3EA5B2E3193EBF5F009027DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SFThirdPartyQQ/SFThirdPartyQQ-Prefix.pch";
+				INFOPLIST_FILE = "SFThirdPartyQQTests/SFThirdPartyQQTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3EA5B2B6193EBF5F009027DC /* Build configuration list for PBXProject "SFThirdPartyQQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EA5B2DC193EBF5F009027DC /* Debug */,
+				3EA5B2DD193EBF5F009027DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EA5B2DE193EBF5F009027DC /* Build configuration list for PBXNativeTarget "SFThirdPartyQQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EA5B2DF193EBF5F009027DC /* Debug */,
+				3EA5B2E0193EBF5F009027DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EA5B2E1193EBF5F009027DC /* Build configuration list for PBXNativeTarget "SFThirdPartyQQTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EA5B2E2193EBF5F009027DC /* Debug */,
+				3EA5B2E3193EBF5F009027DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3EA5B2B3193EBF5F009027DC /* Project object */;
+}
